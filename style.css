@@ -1,5 +1,9 @@
 p {
-    color: green;
+    /*
+    Red is  my favorite color!
+    Red red is the best red.
+    */
+    color: rebeccapurple;
     text-decoration: line-through;
 }
 
@@ -9,4 +13,19 @@ li {
 
 a {
     color: brown
+}
+
+#mostFavorite {
+    text-decoration: underline;
+    font-weight: bold;
+    color: green;
+}
+
+.favorite {
+    color: orangered;
+    font-weight: bolder;
+}
+
+h1 {
+    color: brown;
 }

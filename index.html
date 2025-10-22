@@ -9,12 +9,14 @@
 <body>
     <h1>About Me</h1>
     <!--Liana was here-->
+<a href="./projects.html">Link to my projects</a>
+
     <p>My name is Jackson and I attend</p>
     <p>Green River College!!</p>
     <h2>My favorite foods</h2>
     <ul>
         <li>Pizza</li>
-        <li>Pretzels</li>
+        <li id="mostFavorite">Pretzels</li>
         <li>French fries</li>
     </ul>
 
@@ -29,15 +31,27 @@
                         Twitter
                     </a>
                 </li>
-                <li>Insta</li>
+                <li class="favorite">Insta</li>
                 <li>Tik Tok</li>
                 <li>Bluesky</li>
-                <li>YouTube</li>
-                <li>Tumblr</li>
+                <li class="favorite">YouTube</li>
+                <li class="favorite">Tumblr</li>
             </ul>
         </li>
         <li>Breakfast</li>
         <li>Brush teeth</li>
     </ol>
+
+    <form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="post">
+        <label for="yourCollege">College: </label>
+        <input id="yourCollege" name="college" type="text">
+
+        <label for="associateOption">Associates</label>
+        <input id="associateOption" type="radio" name="degreeType" value="AS">
+        <label for="bachelorOption">Bachelors</label>
+        <input id="bachelorOption" type="radio" name="degreeType" value="BS">
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
